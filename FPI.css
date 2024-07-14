@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.navbar .logo img {
+    height: 50px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .search-bar, .nav-links {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar.active .search-bar, .navbar.active .nav-links {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar.active .nav-links a {
+        padding: 10px 0;
+    }
+}
+
+
+/* Login Page */
+.login-container {
+    background-position: center;
+    background-size: cover;
+    background-image: url('img-fpi/FB_IMG_1619266095246.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.login-box {
+    width: 300px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-box button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-box button:hover {
+    background-color: #555;
+}
+.h-tag h2{
+    
+    display: inline-block;
+    border: 2px solid rgb(209, 195, 195);
+    color:rgb(34, 36, 34);
+    font-size: 35px;
+    
+    text-shadow: 3px 3px #555;
+}
+.h-tag{
+   text-align: center;
+}
+.h-tag h2{
+    background-color: rgb(58, 78, 78);
+}
+.ul-div {
+    padding: 5px 0px;
+    
+}
+.ul-div ul li{
+    margin: 10px;
+    padding: 4px;
+}
+
+.about{
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 20px;
+}
+.campus p{
+    text-align: center;
+}
+.img-div img{
+    padding: 10px 0px;
+    width: 300px;
+    text-align: center;
+    
+}
+.img-div{
+    position: relative;
+    text-align: center;
+}
+.box-div{
+    top: 207%;
+    position: absolute;
+   
+    height: 500px;
+    width: 170px;
+}
+.box-div h4{
+
+    text-align: center;
+}
+.box-div ul li{
+    padding: 5px 0px;
+}
+
+.contener{
+    color: yellow;
+    width: 300px;
+    height: 300ox;
+    
+}
+.fraem{
+    color: red;
+    width: 50px;
+    height: 50px;
+    
+}
+.marquee-div{
+    background-color: #555;
+    color: rgb(16, 237, 16);
+    padding: 10px;
+    font-size: 20px;
+}
+.img-marquee img{
+    width: 300px;
+}
